@@ -6,8 +6,10 @@ This is just an academic function which implements Bubble Sort Algorithm in C, t
 the array. The contents of the array are sorted in ascending or descending order according to a comparison
 function which is pointed by 'cmp', which is called with two arguments that point to the object to be compared.
 
-FUNCTION  bsort(void *base, size_t nmemb, size_t size, int (*cmp)(void *, void *))
-
+FUNCTION  
+<pre>
+bsort(void *base, size_t nmemb, size_t size, int (*cmp)(void *, void *))
+</pre>
 where <b>base</b> is the pointer to the first element of the array to sort; <b>nmemb</b> is the number of elements inside of the array; <b>size</b> is the size of each element of the array; <b>cmp</b> is a pointer to a comparison function.
 
 ## Usage
